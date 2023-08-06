@@ -1,10 +1,15 @@
 body {
     
-    color: #2E2F42;
+    color: #434455;
     font-family: Roboto,  sans-serif;
     background-color: #FFF;
     font-size: 16px;
     font-weight: 500;
+}
+.root{
+    color: var(--white, #FFF);
+    color: var(--iris, #4D5AE5);
+    color: var(--navyblue, #2E2F42);
 }
 .menu{
     color: var(--navyblue, #2E2F42);
@@ -13,7 +18,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
-
 
 .header-navigation-accent{
     color: var(--iris, #4D5AE5);
@@ -116,22 +120,21 @@ cursor: pointer;
 }
 .description{
     color: #434455;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .question{
     color: #2E2F42;
-        text-align: center;
-        /* Header 2 */
-        font-size: 36px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 .team{
     color: #2E2F42;
@@ -147,7 +150,7 @@ cursor: pointer;
 .persone{
     color: #2E2F42;
         /* Header 3 */
-        font-size: 20px;
+        font-style: 20px;
         font-style: normal;
         line-height: 1.2;
         letter-spacing: 0.02em;
