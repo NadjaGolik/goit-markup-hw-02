@@ -57,7 +57,9 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.menu-link:hover,
+.menu-link:hover{
+    color: #404bbf;
+}
 .menu-link:focus{
     color: #404bbf;
 }
