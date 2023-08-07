@@ -18,7 +18,7 @@ body{
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-transform: uppercase;
+    
 }
 
 .header-navigation-logo{
@@ -29,7 +29,6 @@ body{
     font-weight: 800;
     line-height: 1.16;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
     
 }
 
@@ -41,7 +40,7 @@ body{
     font-weight: 800;
     line-height: 1.16;
     letter-spacing: 0.54px;
-    text-transform: uppercase;
+    
     
 }
 
@@ -66,9 +65,8 @@ body{
 }
 
 .button{
-    align-items: flex-start;
     background-color: rgba(0, 0, 0, 0);
-    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px 0px rgba(0, 0, 0, 0);
+    
 }
 
 .button:hover{
@@ -142,7 +140,7 @@ body{
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    text-transform: capitalize;
+   
 }
 .team{
     color: var(--navyblue-color);
@@ -153,7 +151,7 @@ body{
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    text-transform: capitalize;
+    
 }
 .persone{
     color: var(--navyblue-color);
@@ -192,12 +190,8 @@ body{
    
 }
 .our-team{
-   justify-content: center;
    background: var(--white, #FFF);
 }
 .activity-item{
-    padding-bottom: 0px;
-    flex-shrink: 0;
-    border: 1px solid var(--cornflower, #E7E9FC);
     background: var(--white, #FFF);
 }
