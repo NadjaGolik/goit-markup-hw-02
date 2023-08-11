@@ -79,6 +79,9 @@ body{
 .menu-link-portfolio:focus{
     color: #404bbf;
 }
+.section-button-list{
+    background-color: var(--navyblue-color)
+}
 .address-contacts-links{
     font-style: normal;
 }
@@ -204,10 +207,21 @@ body{
     background-color: #404BBF;
 }
 .button-order{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     color: var(--write-color);
     background: var(--iris-color);
     cursor: pointer;
     border: 4px;
+}
+.button-order:hover{
+background-color: #404BBF
+}
+.button-order:focus{
+    background-color: #404BBF
 }
 
 .section-solutions-title{
