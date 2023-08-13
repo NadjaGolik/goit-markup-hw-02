@@ -26,7 +26,7 @@ body{
     font-family: Raleway,sans-serif;
     font-size: 18px;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -38,7 +38,7 @@ body{
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
@@ -50,35 +50,22 @@ body{
     text-decoration: none;
 }
 
-.menu-link-index{
+.menu-link-item{
     color: var(--navyblue-color);
     font-size: 16px;
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.menu-link-index:hover{
+.menu-link-item:hover{
     color: #404bbf;
 }
-.menu-link-index:focus{
-    color: #404bbf;
-}
-
-.menu-link-portfolio{
-    color: var(--navyblue-color);
-    font-size: 16px;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-
-.menu-link-portfolio:hover{
+.menu-link-item:focus{
     color: #404bbf;
 }
 
-.menu-link-portfolio:focus{
-    color: #404bbf;
-}
+
+
 .section-button-list{
     background-color: var(--navyblue-color)
 }
