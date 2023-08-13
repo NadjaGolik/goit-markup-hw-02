@@ -65,9 +65,11 @@ body{
 }
 
 
-
+.section-solutions-title{
+    background-color: var(--navyblue-color);
+}
 .section-button-list{
-    background-color: var(--navyblue-color)
+    background-color: var(--navyblue-color);
 }
 .address-contacts-links{
     font-style: normal;
