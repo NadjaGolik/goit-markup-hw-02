@@ -57,10 +57,10 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.menu-link-item:hover{
+.header-menu:hover{
     color: #404bbf;
 }
-.menu-link-item:focus{
+.header-menu:focus{
     color: #404bbf;
 }
 
