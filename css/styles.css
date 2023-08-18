@@ -193,24 +193,25 @@ background-color: #404BBF
     letter-spacing: 0.02em;
    
 }
-.team{
+.title-section-team{
     color: var(--navyblue-color);
     text-align: center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-size: 20px;
+    font-size: 36px;
     font-style: normal;
     font-weight: 500;
-    line-height: 1.2;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
-.persone{
+.persone-our-team{
     color: var(--navyblue-color);
     text-align: center;
-    font-style: 20px;
+    font-size: 20px;
     font-style: normal;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    font-weight: 500;
 }
 .marketing{
     color: var(--cloud-color);
