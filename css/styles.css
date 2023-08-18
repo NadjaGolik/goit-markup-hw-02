@@ -122,7 +122,7 @@ background-color: #404BBF
     background-color: var(--navyblue-color);
 }
 
-.contacts-mail{
+.contacts-social{
     color: var(--slate-color);
     font-size: 16px;
     font-style: normal;
@@ -130,13 +130,13 @@ background-color: #404BBF
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.contacts-mail:hover{
+.contacts-social:hover{
     color: #404bbf;
 }
-.contacts-mail:focus{
+.contacts-social:focus{
     color: #404bbf;
 }
-.contacts-tel{
+.contacts-social{
     color: var(--slate-color);
     font-size: 16px;
     font-style: normal;
@@ -144,15 +144,18 @@ background-color: #404BBF
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.contacts-tel:hover {
+.contacts-social:hover {
     color: #404bbf;
 }
 
-.contacts-tel:focus {
+.contacts-social:focus {
     color: #404bbf;
 }
 .section-title-text{
     background-color: var(--navyblue-color);
+}
+.section-solutions-title{
+    font-weight: 500;
 }
 .section-title-activity{
     font-weight: 500;
@@ -176,6 +179,9 @@ background-color: #404BBF
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.section-our-team{
+    background-color: var(--cloud-color);
+}
 .question{
     color: var(--navyblue-color);
     text-align: center;
@@ -190,12 +196,12 @@ background-color: #404BBF
     color: var(--navyblue-color);
     text-align: center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-size: 36px;
+    font-size: 20px;
     font-style: normal;
-    font-weight: 700;
-    line-height: 1.11;
+    font-weight: 500;
+    line-height: 1.2;
     letter-spacing: 0.02em;
-    
+    text-transform: capitalize;
 }
 .persone{
     color: var(--navyblue-color);
