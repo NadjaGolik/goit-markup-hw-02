@@ -50,29 +50,21 @@ body{
     text-decoration: none;
 }
 
-.menu-link-item{
+.menu-link-item-index{
     color: var(--navyblue-color);
     font-size: 16px;
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.menu-link-item:hover{
+.menu-link-item-index:hover{
     color: #404bbf;
 }
-.menu-link-item:focus{
+.menu-link-item-index:focus{
     color: #404bbf;
 }
-.feature-advantages-list{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--navyblue-color);
-}
-.section-activity-company{
-    background-color: var(--navyblue-color);
-}
+
+
 .section-solutions-title{
     background-color: var(--navyblue-color);
 }
