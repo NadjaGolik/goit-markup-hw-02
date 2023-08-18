@@ -227,6 +227,7 @@ background-color: #404BBF
     font-style: normal;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    font-weight: 500;
 }
 .activity{
     color: var(--slate-color);
