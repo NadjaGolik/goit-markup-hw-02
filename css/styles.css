@@ -42,10 +42,10 @@ body{
     line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
-    
-    
 }
-
+.header-navigation-accent-studio{
+    color:var(--cloud-color);
+}
 .link{
     text-decoration: none;
 }
@@ -244,4 +244,6 @@ background-color: #404BBF
 }
 .activity-item{
     background: var(--white, #FFF);
+}.footer-business-marketing{
+    background-color: var(--navyblue-color);
 }
