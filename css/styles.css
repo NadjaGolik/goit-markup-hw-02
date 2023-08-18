@@ -50,17 +50,17 @@ body{
     text-decoration: none;
 }
 
-.menu-link-item-index{
+.menu-link-item{
     color: var(--navyblue-color);
     font-size: 16px;
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.menu-link-item-index:hover{
+.menu-link-item:hover{
     color: #404bbf;
 }
-.menu-link-item-index:focus{
+.menu-link-item:focus{
     color: #404bbf;
 }
 
@@ -130,6 +130,12 @@ background-color: #404BBF
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.contacts-mail:hover{
+    color: #404bbf;
+}
+..contacts-mail:focus{
+    color: #404bbf;
+}
 .contacts-tel{
     color: var(--slate-color);
     font-size: 16px;
@@ -137,6 +143,13 @@ background-color: #404BBF
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+.contacts-tel:hover {
+    color: #404bbf;
+}
+
+..contacts-tel:focus {
+    color: #404bbf;
 }
 
 .feature-list{
