@@ -133,7 +133,7 @@ background-color: #404BBF
 .contacts-mail:hover{
     color: #404bbf;
 }
-..contacts-mail:focus{
+.contacts-mail:focus{
     color: #404bbf;
 }
 .contacts-tel{
@@ -148,10 +148,19 @@ background-color: #404BBF
     color: #404bbf;
 }
 
-..contacts-tel:focus {
+.contacts-tel:focus {
     color: #404bbf;
 }
-
+.section-title-text{
+    background-color: var(--navyblue-color);
+}
+.section-title-activity{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navyblue-color);
+}
 .feature-list{
     color: var(--navyblue-color);
     font-size: 20px;
@@ -159,7 +168,7 @@ background-color: #404BBF
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
-.description{
+.description-scroll-activity{
     color: var(--slate-color);
     font-size: 16px;
     font-style: normal;
